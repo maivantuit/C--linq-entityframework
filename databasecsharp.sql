@@ -6,8 +6,9 @@ create table KhachHang(
 	MaKH int primary key,
 	TenKH nvarchar(50),
 	Tuoi int,
-	DiaChi nvarchar(50)
+	DiaChi nvarchar(50) --
 )
+-- git
 insert into KhachHang(MaKH,TenKH,Tuoi,DiaChi) values (1,N'Mai Văn Tú',30,N'Thanh Long Đà Nẵng')
 insert into KhachHang(MaKH,TenKH,Tuoi,DiaChi) values (2,N'Khánh Nhi',30,N'TP HCM')
 insert into KhachHang(MaKH,TenKH,Tuoi,DiaChi) values (3,N'Hồng Đào',25,N'TP HCM')
